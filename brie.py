@@ -1,7 +1,6 @@
-class Brie:
-    def __init__(self, sell_in, quality):
-        self.sell_in = sell_in
-        self.quality = quality
+from item import *
+
+class Brie(Item):
 
     def update_quality(self):
         if self.quality < 50:

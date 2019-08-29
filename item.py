@@ -1,4 +1,5 @@
 class Item:
+    
     def __init__(self, sell_in, quality):
         self.sell_in = sell_in
         self.quality = quality
