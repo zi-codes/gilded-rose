@@ -1,4 +1,3 @@
-from item import *
 from brie import *
 from backstage_pass import *
 from sulfuras import *
