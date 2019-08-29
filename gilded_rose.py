@@ -16,4 +16,4 @@ class GildedRose(object):
                 item.update_quality()
 
     def update_sell_in(self,item):
-        item.sell_in = item.sell_in - 1
+        item.sell_in -= 1
