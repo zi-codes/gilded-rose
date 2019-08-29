@@ -58,6 +58,13 @@ class TestItem(unittest.TestCase):
         gr.update_quality()
         self.assertEqual(backstage_pass.quality,23)
         self.assertEqual(backstage_pass.sell_in,4)
+        
+    def test_pass_on_concert_day(self):
+        backstage_pass = BackstagePass(1,20)
+        gr = GildedRose([backstage_pass])
+        gr.update_quality()
+        self.assertEqual(backstage_pass.quality,23)
+        self.assertEqual(backstage_pass.sell_in,0)
 
     def test_pass_after_concert(self):
         backstage_pass = BackstagePass(0,20)
