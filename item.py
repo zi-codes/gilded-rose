@@ -5,7 +5,7 @@ class Item:
 
     def update_quality(self):
         if self.quality > 0:
-            if self.sell_in > 0:
-                self.quality = self.quality - 1
-            else:
-                self.quality = self.quality - 2
+            self.quality = self.quality - self.decrement()
+
+    def decrement(self):
+        return 1 if self.sell_in > 0 else 2
