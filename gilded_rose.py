@@ -1,3 +1,6 @@
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]),'items'))
+
 from brie import *
 from backstage_pass import *
 from sulfuras import *

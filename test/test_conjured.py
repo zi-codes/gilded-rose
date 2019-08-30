@@ -1,6 +1,6 @@
 import unittest
-import sys
-sys.path.append('/Users/student/tech_tests/gilded-rose')
+import sys, os
+sys.path.append(os.path.dirname(sys.path[0]))
 from gilded_rose import *
 
 class TestItem(unittest.TestCase):
