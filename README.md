@@ -26,6 +26,6 @@ Requires python
 
 ```sh
 $ git clone https://github.com/zi-codes/gilded-rose.git
-$ cd gilded-rose
-$ python test.py -v
+$ cd gilded-rose/test/
+$ python -m unittest discover
 ```
