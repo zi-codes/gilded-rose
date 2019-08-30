@@ -12,7 +12,6 @@ This code shows examples of
 - Inheritance
 - Public and private methods
 - Polymorphism
-- Forwarding
 - TDD
 
 ## Run the tests yourself
