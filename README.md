@@ -1,6 +1,6 @@
 # Gilded Rose Kata
 
-My first python project - my job was to refactor legacy code. Tested with unittest to ensure all functionality remained the same.
+My first python project - my job was to refactor [this legacy code](https://github.com/emilybache/GildedRose-Refactoring-Kata). Tested with unittest to ensure all functionality remained the same.
 
 ## OOD principles / Methodologies
 
